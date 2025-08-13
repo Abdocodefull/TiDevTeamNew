@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /all-projects
+Allow: /project/*
+
+# Block admin areas
+Disallow: /projects
+Disallow: /admin
+
+# Allow important files
+Allow: /favicon.ico
+Allow: /sitemap.xml
+
+# Sitemap location
+Sitemap: https://tidevteam.com/sitemap.xml
